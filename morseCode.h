@@ -25,6 +25,8 @@ const char* getMorseCodeByChar(char character) {
     case ('F'):
       return "..-.";
       break;
+
+		/* ADD THE OTHER CASES HERE */
     
 		case (32):
       return "/";
