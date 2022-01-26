@@ -28,11 +28,11 @@ const char* getMorseCodeByChar(char character) {
 
 		/* ADD THE OTHER CASES HERE */
     
-		case (32):
+		case (32): //space
       return "/";
       break;
  
-    default:
+    default: //any other char
 			return "";
 	}
 }
